@@ -473,7 +473,7 @@ h6 {
 }
 
 #hero .animated {
-  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  animation: up-down 1s ease-in-out infinite alternate-reverse both;
 }
 
 @media (min-width: 1024px) {
@@ -809,7 +809,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../../public/img/about.svg") center center no-repeat;
+  background: url("../../public/img/about.avif") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }

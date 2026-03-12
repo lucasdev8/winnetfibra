@@ -150,11 +150,6 @@ function Header() {
 
           </ul>
 
-          {/* <i
-            className={`mobile-nav-toggle bi ${menuOpen ? "bi-x" : "bi-list"}`}
-            onClick={() => setMenuOpen(!menuOpen)}
-          ></i> */}
-
           <Icon
             className="mobile-nav-toggle"
             icon={menuOpen

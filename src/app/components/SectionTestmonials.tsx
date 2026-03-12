@@ -7,6 +7,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 function SectionTestmonials() {
+  
   return (
     <section id="testimonials" className="testimonials">
       <div className="container">
@@ -21,7 +22,6 @@ function SectionTestmonials() {
 
           <SwiperSlide>
             <div className="testimonial-item">
-              {/* <img src="/img/testimonials/testimonials-3.jpg" className="testimonial-img" alt="" /> */}
               <h3>Luiz Fernando</h3>
               <h4>Cliente</h4>
               <p>
@@ -35,7 +35,6 @@ function SectionTestmonials() {
 
           <SwiperSlide>
             <div className="testimonial-item">
-              {/* <img src="/img/testimonials/testimonials-4.jpg" className="testimonial-img" alt="" /> */}
               <h3>Junior Silva</h3>
               <h4>Cliente</h4>
               <p>
@@ -48,7 +47,6 @@ function SectionTestmonials() {
 
           <SwiperSlide>
             <div className="testimonial-item">
-              {/* <img src="/img/testimonials/testimonials-5.jpg" className="testimonial-img" alt="" /> */}
               <h3>Ana Clara</h3>
               <h4>Cliente</h4>
               <p>
