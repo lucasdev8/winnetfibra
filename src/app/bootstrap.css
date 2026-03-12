@@ -814,6 +814,38 @@ section {
   min-height: 300px;
 }
 
+.info .icon-box .description {
+  margin-left: 85px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.info .icon-box .title a:hover {
+  color: #7ed759;
+}
+
+.info .video-box {
+  background: url("../../public/img/tec-pop.webp") center center no-repeat;
+  background-size: contain;
+  min-height: 300px;
+}
+
+.tec .icon-box .description {
+  margin-left: 85px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.tec .icon-box .title a:hover {
+  color: #7ed759;
+}
+
+.tec .video-box {
+  background: url("../../public/img/tec.webp") center center no-repeat;
+  background-size: contain;
+  min-height: 300px;
+}
+
 .about .play-btn {
   width: 94px;
   height: 94px;

@@ -11,6 +11,8 @@ import Footer from "./components/Footer"
 import SectionTestmonials from "./components/SectionTestmonials"
 import SectionFaq from "./components/SectionFaq"
 import SectionAbout from "./components/SectionAbout"
+import SectionInfo from "./components/SectionInfo"
+import SectionTec from "./components/SectionTec"
 
 export const metadata = {
   title: "WIN-NET-FIBRA | internet de verdade!",
@@ -44,6 +46,8 @@ export default function RootLayout({ children }: any) {
         {children}
 
         <SectionAbout />
+        <SectionInfo />
+        <SectionTec />
         <SectionTestmonials />
         <SectionFaq />
 

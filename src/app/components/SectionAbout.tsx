@@ -9,7 +9,6 @@ function SectionAbout() {
                 <div className="row">
                     <div className="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch"
                         data-aos="fade-right">
-                        {/* <img src="img/details-1.png" width="400px" alt="" /> */}
                     </div>
 
                     <div
