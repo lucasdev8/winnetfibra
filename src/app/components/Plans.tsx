@@ -26,7 +26,7 @@ function Plans({ plans }: Plans) {
                         <div key={key} className="col-lg-3 col-md-6">
                             <div className="box m-1" data-aos="zoom-in" data-aos-delay="100">
                                 <h3>{plan.namePlan}</h3>
-                                <h3 className="mega">{plan.speedPlan} Megas</h3>
+                                <h3 className="mega">{plan.speedPlan} Mega</h3>
                                 <h4><sup>R$</sup>{plan.pricePlan}<span> / Mês</span></h4>
                                 <ul>
                                     <li><i className="bx bx-wifi"></i> Wifi {plan.typeWifi}

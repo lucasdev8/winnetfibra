@@ -7,6 +7,10 @@ function SectionInfo() {
             <div className="container-fluid">
 
                 <div className="row">
+                    <div className="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch"
+                        data-aos="fade-right">
+                        {/* <img src="img/details-1.png" width="400px" alt="" /> */}
+                    </div>
                     <div
                         className="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5"
                         data-aos="fade-left">
@@ -37,10 +41,6 @@ function SectionInfo() {
                                 Assim, você navega com tranquilidade, sabendo que está conectado a uma internet segura e de alto padrão.</p>
                         </div>
 
-                    </div>
-                    <div className="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch"
-                        data-aos="fade-right">
-                        {/* <img src="img/details-1.png" width="400px" alt="" /> */}
                     </div>
                 </div>
 

@@ -26,7 +26,7 @@ function SectionAbout() {
                         <div className="icon-box" data-aos="zoom-in" data-aos-delay="200">
                             <div className="icon"><Icon color="#7ed759" icon="solar:smartphone-bold-duotone" width={70}/></div>
                             <h4 className="title"><a href="">Aplicativo.</a></h4>
-                            <p className="description">Temos aplicativo própio, fácil de utilizar, é bem leve e com várias, pague suas
+                            <p className="description">Temos aplicativo própio, fácil de utilizar, é bem leve e com várias funcionalidades!, pague suas
                                 Faturas, Gerencie pessoas conectadas em sua rede WIFI, faça alteração de SSID e Senha e Muito mais!</p>
                         </div>
 

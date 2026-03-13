@@ -144,7 +144,7 @@ function Header() {
                 onClick={closeMenu}
               >
                 <Icon icon="solar:user-circle-bold-duotone" width={20} />
-                &nbsp;Área do Cliente
+                &nbsp;Minha WinNet
               </a>
             </li>
 

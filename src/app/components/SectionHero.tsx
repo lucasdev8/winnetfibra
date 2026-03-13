@@ -1,3 +1,5 @@
+import { Icon } from "@iconify/react"
+
 function SectionHero() {
 
     return (
@@ -13,9 +15,10 @@ function SectionHero() {
                             </h1>
                             <h2 style={{ color: "yellow" }}>Planos a partir de <b>R$79,99</b> de até <b>800</b> Mega.</h2>
                             <div className="text-center text-lg-start">
-                                <a className="btn-get-started scrollto" href="#pricing" id="generete-ssh"><i
-                                    className="bx bx-user-check"></i>Assine já!
+                                <a className="btn-get-started scrollto m-3" href="#pricing" id="generete-ssh">
+                                    <Icon icon="solar:planet-bold-duotone" width={20}/>Assine já!
                                 </a>
+                                <a className="btn-boleto"><Icon icon="solar:document-text-bold-duotone" width={20}/> 2ª Via boleto</a>
                             </div>
                         </div>
                     </div>

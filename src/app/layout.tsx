@@ -15,8 +15,8 @@ import SectionInfo from "./components/SectionInfo"
 import SectionTec from "./components/SectionTec"
 
 export const metadata = {
-  title: "WIN-NET-FIBRA | internet de verdade!",
-  description: "fibra optica",
+  title: "WinNet-FIBRA | internet de verdade!",
+  description: "Vem pra para a melhor!",
 }
 
 export default function RootLayout({ children }: any) {
@@ -32,7 +32,7 @@ export default function RootLayout({ children }: any) {
         />
 
         {/* Favicons */}
-        <link rel="icon" href="/img/favicon.svg" />
+        <link rel="icon" href="/img/favicon.png" />
         
 
       </head>

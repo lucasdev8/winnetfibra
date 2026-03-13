@@ -462,6 +462,21 @@ h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 1s;
+  color: white;
+  background: #0D6EF3;
+  border: 5px linear-gradient(to right, #0097B2, #7ED759);
+}
+
+#hero .btn-boleto {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 1s;
   color: black;
   background: white;
   border: 5px linear-gradient(to right, #0097B2, #7ED759);
@@ -470,6 +485,11 @@ h6 {
 #hero .btn-get-started:hover {
   background: rgb(210, 207, 207);
   color: black;
+}
+
+#hero .btn-boleto:hover {
+  background: #0D6EF3;
+  color: white;
 }
 
 #hero .animated {
@@ -809,7 +829,7 @@ section {
 }
 
 .about .video-box {
-  background: url("../../public/img/about.avif") center center no-repeat;
+  background: url("../../public/img/about.png") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
@@ -825,7 +845,7 @@ section {
 }
 
 .info .video-box {
-  background: url("../../public/img/tec-pop.webp") center center no-repeat;
+  background: url("../../public/img/tec-pop.png") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
@@ -841,7 +861,7 @@ section {
 }
 
 .tec .video-box {
-  background: url("../../public/img/tec.webp") center center no-repeat;
+  background: url("../../public/img/tec.png") center center no-repeat;
   background-size: contain;
   min-height: 300px;
 }
