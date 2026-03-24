@@ -62,14 +62,18 @@
 "use client"
 
 import { Icon } from "@iconify/react"
+import { Button } from "@mui/material"
 import { useEffect, useState } from "react"
 import Swal from "sweetalert2"
+import ModalCobertura from "../utils/components/ModalCobertura"
 
 function Header() {
+  const [openModal, setOpenModal] = useState(false)
 
   const [menuOpen, setMenuOpen] = useState(false)
 
   const closeMenu = () => setMenuOpen(false)
+  const handleClose = () => setOpenModal(false)
 
   useEffect(() => {
     Swal.fire({
@@ -86,7 +90,7 @@ function Header() {
       <div className="container d-flex align-items-center justify-content-between">
 
         <img src="/img/logo.png" alt="logo" width="120" />
-
+        <ModalCobertura handleClose={handleClose} open={openModal} />
         <nav
           id="navbar"
           className={`navbar ${menuOpen ? "navbar-mobile" : ""}`}
@@ -95,57 +99,60 @@ function Header() {
           <ul>
 
             <li>
-              <a
-                className="nav-link scrollto active"
+              <Button
+                className="nav-link scrollto"
                 href="/"
                 onClick={closeMenu}
               >
                 <Icon icon="solar:home-2-bold-duotone" width={20} />
                 &nbsp;Inicio
-              </a>
+              </Button>
             </li>
 
             <li>
-              <a
+              <Button
                 className="nav-link scrollto"
                 href="#pricing"
                 onClick={closeMenu}
               >
                 <Icon icon="solar:planet-bold-duotone" width={20} />
                 &nbsp;Planos
-              </a>
+              </Button>
             </li>
 
             <li>
-              <a
+              <Button
                 className="nav-link scrollto"
-                onClick={closeMenu}
+                href="#pricing"
+                onClick={() => setOpenModal(true)}
               >
                 <Icon icon="solar:gps-bold-duotone" width={20} />
                 &nbsp;Cobertura
-              </a>
+              </Button>
             </li>
 
             <li>
-              <a
+              <Button
                 className="nav-link scrollto"
                 href="https://wa.me/5598992489457"
                 onClick={closeMenu}
               >
                 <Icon icon="solar:headphones-round-bold-duotone" width={20} />
                 &nbsp;Suporte
-              </a>
+              </Button>
             </li>
 
             <li>
-              <a
+              <Button
                 href="https://wa.me/5598992489457"
-                className="btn btn-primary"
+                // className="btn btn-primary"
+                variant="contained"
+                color="info"
                 onClick={closeMenu}
               >
                 <Icon icon="solar:user-circle-bold-duotone" width={20} />
-                &nbsp;Minha WinNet
-              </a>
+                &nbsp;Minha OneClick
+              </Button>
             </li>
 
           </ul>

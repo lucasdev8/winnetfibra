@@ -19,7 +19,7 @@ function SectionInfo() {
                             <div className="icon"><Icon color="#7ed759" icon="solar:server-path-line-duotone" width={70} /></div>
                             <h4 className="title"><a href="">Os melhores equipamentos.</a></h4>
                             <p className="description">
-                                Na Winnet Fibra, utilizamos equipamentos de alta qualidade e tecnologia avançada para garantir uma conexão rápida, estável e segura.
+                                Na OneClick Fibra, utilizamos equipamentos de alta qualidade e tecnologia avançada para garantir uma conexão rápida, estável e segura.
                                 Nossa infraestrutura é pensada para oferecer o máximo desempenho, com baixa latência e alta confiabilidade.
                                 Assim, levamos até você uma internet preparada para atender todas as suas necessidades do dia a dia.
                             </p>
@@ -28,7 +28,7 @@ function SectionInfo() {
                         <div className="icon-box" data-aos="zoom-in" data-aos-delay="200">
                             <div className="icon"><Icon color="#7ed759" icon="solar:graph-new-up-bold-duotone" width={70} /></div>
                             <h4 className="title"><a href="">Alto desempenho</a></h4>
-                            <p className="description">A Winnet Fibra oferece internet de alto desempenho, garantindo velocidade e estabilidade para todas as suas atividades online.
+                            <p className="description">A OneClick Fibra oferece internet de alto desempenho, garantindo velocidade e estabilidade para todas as suas atividades online.
                                 Nossa rede foi projetada para suportar streaming, jogos e trabalho remoto sem travamentos ou lentidão.
                                 Com tecnologia de ponta, entregamos uma experiência de navegação rápida, fluida e confiável todos os dias.</p>
                         </div>
@@ -36,7 +36,7 @@ function SectionInfo() {
                         <div className="icon-box" data-aos="zoom-in" data-aos-delay="300">
                             <div className="icon"><Icon color="#7ed759" icon="solar:lock-password-bold-duotone" width={70} /></div>
                             <h4 className="title"><a href="">Segurança</a></h4>
-                            <p className="description">A Winnet Fibra prioriza qualidade e segurança em cada detalhe da sua rede.
+                            <p className="description">A OneClick Fibra prioriza qualidade e segurança em cada detalhe da sua rede.
                                 Utilizamos tecnologia moderna e infraestrutura confiável para garantir uma conexão estável e protegida.
                                 Assim, você navega com tranquilidade, sabendo que está conectado a uma internet segura e de alto padrão.</p>
                         </div>

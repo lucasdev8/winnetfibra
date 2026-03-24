@@ -1,4 +1,7 @@
+"use client"
+
 import { Icon } from "@iconify/react"
+import { Stack } from "@mui/material"
 
 function SectionHero() {
 
@@ -10,15 +13,18 @@ function SectionHero() {
                     <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
                         <div data-aos="zoom-out">
                             <h1 id="message-header">
-                                WinNet Fibra é<br />
+                                OneClick Fibra é<br />
                                 Internet de verdade!
                             </h1>
                             <h2 style={{ color: "yellow" }}>Planos a partir de <b>R$79,99</b> de até <b>800</b> Mega.</h2>
-                            <div className="text-center text-lg-start">
-                                <a className="btn-get-started scrollto m-3" href="#pricing" id="generete-ssh">
-                                    <Icon icon="solar:planet-bold-duotone" width={20}/>Assine já!
-                                </a>
-                                <a className="btn-boleto"><Icon icon="solar:document-text-bold-duotone" width={20}/> 2ª Via boleto</a>
+                            <div className="text-center text-lg-start" >
+                                <Stack spacing={0.5} direction="row">
+                                    <a className="btn-get-started scrollto" href="#pricing" id="generete-ssh">
+                                        <Icon icon="solar:planet-bold-duotone" width={20} />Assine já!
+                                    </a>
+                                    <a className="btn-boleto"><Icon icon="solar:document-text-bold-duotone" width={20} /> 2ª Via boleto</a>
+                                </Stack>
+
                             </div>
                         </div>
                     </div>

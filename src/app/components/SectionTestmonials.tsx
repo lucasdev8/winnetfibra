@@ -26,8 +26,8 @@ function SectionTestmonials() {
               <h4>Cliente</h4>
               <p>
                 <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                Com certeza a WinNET Fibra é melhor internet de Mata Roma!
-                #ObrigadoWinNetFibra
+                Com certeza a OneClick Fibra é melhor internet de Mata Roma!
+                #ObrigadoOneClickFibra
                 <i className="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>
@@ -51,7 +51,7 @@ function SectionTestmonials() {
               <h4>Cliente</h4>
               <p>
                 <i className="bx bxs-quote-alt-left quote-icon-left"></i>
-                Acho incrível a forma como a WinNet Fibra atende seus clientes, sem contar a qualidade da internet!
+                Acho incrível a forma como a OneClick Fibra atende seus clientes, sem contar a qualidade da internet!
                 <i className="bx bxs-quote-alt-right quote-icon-right"></i>
               </p>
             </div>

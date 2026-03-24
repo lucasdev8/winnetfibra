@@ -18,7 +18,7 @@ function SectionTec() {
                             <div className="icon"><Icon color="#7ed759" icon="solar:bolt-bold-duotone" width={70} /></div>
                             <h4 className="title"><a href="">Técnicos rapidos.</a></h4>
                             <p className="description">
-                                Na Winnet Fibra, contamos com uma equipe de técnicos ágeis e preparados para atender você com rapidez e eficiência.
+                                Na OneClick Fibra, contamos com uma equipe de técnicos ágeis e preparados para atender você com rapidez e eficiência.
                                 Nosso suporte trabalha para resolver qualquer situação no menor tempo possível, garantindo que sua conexão volte a funcionar perfeitamente.
                                 Porque sabemos que internet de qualidade também significa atendimento rápido quando você precisa.
                             </p>
@@ -27,7 +27,7 @@ function SectionTec() {
                         <div className="icon-box" data-aos="zoom-in" data-aos-delay="200">
                             <div className="icon"><Icon color="#7ed759" icon="solar:map-point-rotate-bold" width={70} /></div>
                             <h4 className="title"><a href="">Disponibilidade eficaz.</a></h4>
-                            <p className="description">A Winnet Fibra conta com disponibilidade técnica eficaz, pronta para atender sempre que você precisar.
+                            <p className="description">A OneClick Fibra conta com disponibilidade técnica eficaz, pronta para atender sempre que você precisar.
                                 Nossa equipe trabalha com agilidade e responsabilidade para identificar e resolver qualquer situação rapidamente.
                                 Assim, garantimos que sua conexão permaneça estável, com suporte confiável sempre ao seu alcance.</p>
                         </div>
@@ -35,7 +35,7 @@ function SectionTec() {
                         <div className="icon-box" data-aos="zoom-in" data-aos-delay="300">
                             <div className="icon"><Icon color="#7ed759" icon="solar:home-wifi-angle-bold-duotone" width={70} /></div>
                             <h4 className="title"><a href="">Instalação padronizada</a></h4>
-                            <p className="description">Na Winnet Fibra, realizamos uma instalação padronizada, seguindo critérios técnicos que garantem qualidade e organização em cada detalhe.
+                            <p className="description">Na OneClick Fibra, realizamos uma instalação padronizada, seguindo critérios técnicos que garantem qualidade e organização em cada detalhe.
                                 Nossa equipe utiliza boas práticas e materiais adequados para assegurar o melhor desempenho da sua conexão.
                                 Assim, você recebe uma instalação segura, eficiente e preparada para oferecer internet de alto nível desde o primeiro dia.</p>
                         </div>

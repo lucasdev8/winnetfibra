@@ -15,7 +15,7 @@ import SectionInfo from "./components/SectionInfo"
 import SectionTec from "./components/SectionTec"
 
 export const metadata = {
-  title: "WinNet-FIBRA | internet de verdade!",
+  title: "OneClick Fibra | internet de verdade!",
   description: "Vem pra para a melhor!",
 }
 
