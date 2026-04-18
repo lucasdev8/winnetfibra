@@ -1,8 +1,4 @@
 import Script from "next/script"
-import "../../public/vendor/bootstrap/css/bootstrap.min.css"
-import "../../public/vendor/aos/aos.css"
-import "../../public/vendor/boxicons/css/boxicons.min.css"
-import "../../public/vendor/swiper/swiper-bundle.min.css"
 import "./bootstrap.css"
 import InitAOS from "./components/InitAOS"
 import Header from "./components/Header"
@@ -25,6 +21,11 @@ export default function RootLayout({ children }: any) {
       <InitAOS />
       <head>
 
+        {/* Css imports */}
+        <link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="/vendor/boxicons/css/boxicons.min.css" />
+        <link rel="stylesheet" href="/vendor/swiper/swiper-bundle.min.css" />
+
         {/* Google Fonts */}
         <link
           href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Montserrat:300,400,600,700|Poppins:300,400,600,700"
@@ -33,7 +34,7 @@ export default function RootLayout({ children }: any) {
 
         {/* Favicons */}
         <link rel="icon" href="/img/favicon.png" />
-        
+
 
       </head>
 
@@ -42,7 +43,7 @@ export default function RootLayout({ children }: any) {
         {/* Header */}
         <Header />
         <SectionHero />
-        
+
         {children}
 
         <SectionAbout />
@@ -52,7 +53,7 @@ export default function RootLayout({ children }: any) {
         <SectionFaq />
 
         <Footer />
-      
+
         <Script src="/vendor/bootstrap/js/bootstrap.bundle.min.js" strategy="afterInteractive" />
         <Script src="/vendor/aos/aos.js" strategy="afterInteractive" />
         <Script src="/vendor/swiper/swiper-bundle.min.js" strategy="afterInteractive" />
