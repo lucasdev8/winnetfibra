@@ -52,7 +52,7 @@ function Footer() {
                                 </div>
                                 <p className="pb-3">Todos direitos Reservados | {new Date().getFullYear()}</p>
                                 <p className="pb-4">Rua José Viturino Gomes - S/N - Mata Roma - MA</p>
-                                <p className="pb-1">CNPJ: 00.000.000/0001</p>
+                                <p className="pb-1">suporte@oneclickfibra.com.br</p>
                             </div>
                         </div>
 

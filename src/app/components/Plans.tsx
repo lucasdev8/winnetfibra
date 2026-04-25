@@ -32,7 +32,7 @@ function Plans({ plans }: Plans) {
                                 <h3>{plan.namePlan}</h3>
                                 <Speedometer max={900} value={Number(plan.speedPlan)} />
                                 <Divider />
-                                <h4 className="text-dark"><sup>R$</sup>{plan.pricePlan}<sup>99</sup><span className="text-dark"> / Mês</span></h4>
+                                <h4 className="text-dark"><sup>R$</sup>{plan.pricePlan}<sup>90</sup><span className="text-dark"> / Mês</span></h4>
                                 <ul>
                                     <Stack
                                         component="ol"
