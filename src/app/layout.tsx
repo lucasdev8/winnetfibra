@@ -53,7 +53,7 @@ export const metadata = {
     ],
   },
 
-  instagram: {
+  twitter: {
     card: "summary_large_image",
 
     title:
@@ -62,8 +62,8 @@ export const metadata = {
     description:
       "Internet fibra óptica com ultra velocidade e estabilidade.",
 
-    images: ["https://oneclickfibra.com.br/img/logo-cor.png"],
-  },
+    images: ["https://oneclickfibra.com.br/img/og-image.jpg"],
+  }
 }
 
 const poppins = Poppins({
@@ -116,7 +116,7 @@ export default function RootLayout({ children }: any) {
 
               logo: 'https://oneclickfibra.com.br/img/logo.png',
 
-              image: 'https://oneclickfibra.com.br/img/logo-cor.png',
+              image: 'https://oneclickfibra.com.br/img/og-image.jpg',
 
               telephone: '+5598992489457',
 
@@ -127,7 +127,7 @@ export default function RootLayout({ children }: any) {
                 addressCountry: 'BR',
               },
 
-              areaServed: 'MA',
+              areaServed: 'Mata roma',
 
               sameAs: [
                 'https://instagram.com/oneclickfibra',
