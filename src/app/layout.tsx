@@ -66,6 +66,37 @@ export const metadata = {
   }
 }
 
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "InternetServiceProvider",
+
+  name: "OneClick Fibra",
+
+  url: "https://oneclickfibra.com.br",
+
+  logo: "https://oneclickfibra.com.br/img/logo.png",
+
+  image: "https://oneclickfibra.com.br/img/og-image.jpg",
+
+  description:
+    "Internet fibra óptica com ultra velocidade e estabilidade.",
+
+  telephone: "+5589982489457",
+
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Mata Roma",
+    addressRegion: "MA",
+    addressCountry: "BR",
+  },
+
+  areaServed: "Mata Roma",
+
+  sameAs: [
+    "https://instagram.com/oneclickfibra"
+  ],
+}
+
 const poppins = Poppins({
   subsets: ['latin'],
   weight: ['300', '400', '600', '700'],
@@ -79,6 +110,12 @@ export default function RootLayout({ children }: any) {
 
         {/* Favicons */}
         <link rel="icon" href="/img/favicon.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schema),
+          }}
+        />
 
       </head>
 
