@@ -112,20 +112,24 @@ export default function RootLayout({ children }: any) {
         <InitAOS />
         <Header />
         <SectionHero />
+  
+        <Box sx={{ mt: 10 }} textAlign="center">
+          <p>Teste a qualidade da sua conexão usando o Speedtest da <b>OneClick Fibra</b>.</p>
+        </Box>
 
         <Box sx={{ mt: 5, display: "flex", alignItems: "center", justifyContent: "center" }}>
-          <Button 
-            startIcon={<Icon icon="solar:spedometer-max-bold-duotone"/>}
-            color="primary" href="https://oneclickfibra.speedtestcustom.com" 
+          <Button
+            startIcon={<Icon icon="solar:spedometer-max-bold-duotone" />}
+            color="primary" href="https://oneclickfibra.speedtestcustom.com"
             variant="contained"
             target="_blank"
           >
             Teste de velocidade
-            </Button>
+          </Button>
         </Box>
 
         {children}
-        
+
         <SectionAbout />
         <SectionInfo />
         <SectionTec />

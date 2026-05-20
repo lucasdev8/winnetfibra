@@ -13,7 +13,7 @@ function SectionFaq() {
                     <ul>
                         <li data-aos="fade-up">
                             <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" className="collapse"
-                                data-bs-target="#faq-list-1">Porque escolher a OneClick Fibra? <i className="bx bx-chevron-down icon-show"></i><i
+                                data-bs-target="#faq-list-1">Porque escolher a <b>OneClick Fibra</b>? <i className="bx bx-chevron-down icon-show"></i><i
                                     className="bx bx-chevron-up icon-close"></i></a>
                             <div id="faq-list-1" className="collapse show" data-bs-parent=".faq-list">
                                 <p>
@@ -43,9 +43,16 @@ function SectionFaq() {
                                 </p>
                             </div>
                         </li>
-
-
-
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i className="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4"
+                                className="collapsed">A internet da <b>OneClick Fibra</b> é de qualidade? <i
+                                    className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-4" className="collapse" data-bs-parent=".faq-list">
+                                <p>
+                                    Segundo recomendações da Anatel, a estabilidade da conexão é um dos fatores mais importantes, por isso prezamos pelo bom suporte e entrega do serviço. Garantindo a melhor experiência para você!
+                                </p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
 

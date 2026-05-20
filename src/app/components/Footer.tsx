@@ -1,5 +1,6 @@
 "use client"
 
+import { Link } from "@mui/material"
 import Image from "next/image"
 import { useRouter } from "next/navigation"
 
@@ -26,7 +27,9 @@ function Footer() {
                             <div className="footer-info text-center">
                                 <div className="mb-3">
                                     <Image src="/img/logo.png" alt="logo" width="120" height="120" className="me-2" />
-                                    <Image src="/img/anatel.png" alt="anatel" width="120" height="80" />
+                                    <Link href="https://www.gov.br/anatel/pt-br" target="_blank">
+                                        <Image src="/img/anatel.png" alt="anatel" width="120" height="80" />
+                                    </Link>
                                 </div>
                                 <p className="pb-3">Todos direitos Reservados | {new Date().getFullYear()}</p>
                                 <p className="pb-4">Rua José Viturino Gomes - S/N - Mata Roma - MA</p>
