@@ -13,11 +13,12 @@ function SectionHero() {
                 <div className="row justify-content-between">
                     <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
                         <div data-aos="zoom-out">
-                            <h1 id="message-header">
+                            <h2 id="message-header">
                                 OneClick Fibra é<br />
                                 Internet de verdade!
-                            </h1>
-                            <h2 style={{ color: "yellow" }}>Planos a partir de <b>R$79,99</b> de até <b>800</b> Mega.</h2>
+                            </h2>
+                            <h1>Internet Fibra Óptica em Mata Roma-MA</h1>
+                            <h2 style={{ color: "yellow" }}>Planos a partir de <b>R$79,99</b> com instalação rápida, suporte local e planos de até <b>800</b> Mega para streaming, jogos online e empresas. garantimos 99,5% de UpTime.</h2>
                             <div className="text-center text-lg-start" >
                                 <Stack spacing={0.5} direction="row">
                                     <a className="btn-get-started scrollto" href="#pricing" id="generete-ssh">

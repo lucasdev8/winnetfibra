@@ -1,28 +1,22 @@
 import Script from "next/script"
 import "../../public/vendor/bootstrap/css/bootstrap.min.css"
 import "../../public/vendor/aos/aos.css"
-import "../../public/vendor/boxicons/css/boxicons.min.css"
+// import "../../public/vendor/boxicons/css/boxicons.min.css"
 import "../../public/vendor/swiper/swiper-bundle.min.css"
 import "./bootstrap.css"
 import InitAOS from "./components/InitAOS"
 import Header from "./components/Header"
-import SectionHero from "./components/SectionHero"
 import Footer from "./components/Footer"
-import SectionTestmonials from "./components/SectionTestmonials"
-import SectionFaq from "./components/SectionFaq"
-import SectionAbout from "./components/SectionAbout"
-import SectionInfo from "./components/SectionInfo"
-import SectionTec from "./components/SectionTec"
 import { Poppins } from "next/font/google"
-import { Box, Button } from "@mui/material"
-import { Icon } from "@iconify/react"
 
 export const metadata = {
   metadataBase: new URL("https://oneclickfibra.com.br"),
+  alternates: {
+    canonical: "https://oneclickfibra.com.br",
+  },
   title: "OneClick Fibra | Internet Fibra Óptica de Alta Velocidade",
   description:
     "Internet fibra óptica com ultra velocidade, estabilidade e suporte de qualidade para sua casa ou empresa.",
-
   icons: {
     icon: "/img/favicon.png",
   },
@@ -56,6 +50,19 @@ export const metadata = {
 const schema = {
   "@context": "https://schema.org",
   "@type": "InternetServiceProvider",
+  "priceRange": "$$",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+55992489457",
+    "contactType": "customer service",
+    "areaServed": "BR",
+    "availableLanguage": "Portuguese"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": -3.625,
+    "longitude": -43.1108
+  },
 
   name: "OneClick Fibra",
 
@@ -94,10 +101,8 @@ export default function RootLayout({ children }: any) {
   return (
     <html lang="pt-br">
       <head>
-
-        {/* Favicons */}
-        <link rel="icon" href="/img/favicon.png" />
-        <script
+        <Script
+          id="schema-org"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(schema),
@@ -111,30 +116,8 @@ export default function RootLayout({ children }: any) {
         {/* Header */}
         <InitAOS />
         <Header />
-        <SectionHero />
-  
-        <Box sx={{ mt: 10 }} textAlign="center">
-          <p>Teste a qualidade da sua conexão usando o Speedtest da <b>OneClick Fibra</b>.</p>
-        </Box>
-
-        <Box sx={{ mt: 5, display: "flex", alignItems: "center", justifyContent: "center" }}>
-          <Button
-            startIcon={<Icon icon="solar:spedometer-max-bold-duotone" />}
-            color="primary" href="https://oneclickfibra.speedtestcustom.com"
-            variant="contained"
-            target="_blank"
-          >
-            Teste de velocidade
-          </Button>
-        </Box>
 
         {children}
-
-        <SectionAbout />
-        <SectionInfo />
-        <SectionTec />
-        <SectionTestmonials />
-        <SectionFaq />
 
         <Footer />
 

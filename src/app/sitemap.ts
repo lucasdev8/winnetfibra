@@ -1,12 +1,20 @@
-import type { MetadataRoute } from 'next'
-
-export default function sitemap(): MetadataRoute.Sitemap {
+export default function sitemap() {
   return [
     {
-      url: 'https://oneclickfibra.com.br',
+      url: "https://oneclickfibra.com.br/",
       lastModified: new Date(),
-      changeFrequency: 'weekly',
-      priority: 1,
+    },
+    {
+      url: "https://oneclickfibra.com.br/planos",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://oneclickfibra.com.br/cobertura",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://oneclickfibra.com.br/suporte",
+      lastModified: new Date(),
     },
   ]
 }

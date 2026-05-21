@@ -1,18 +1,18 @@
-import Plans from "./components/Plans";
 
-const plans = [
-    { namePlan: "START", speedPlan: "400", pricePlan: 79, typeWifi: "5G" },
-    { namePlan: "PLUS", speedPlan: "500", pricePlan: 89, typeWifi: "6 + 5G" },
-    { namePlan: "PRO", speedPlan: "600", pricePlan: 99, typeWifi: "6 + 5G" },
-    { namePlan: "ULTRA", speedPlan: "800", pricePlan: 119, typeWifi: "6 +5G" }
-]
+import SectionAbout from "./components/SectionAbout";
+import SectionFaq from "./components/SectionFaq";
+import SectionInfo from "./components/SectionInfo";
+import SectionTec from "./components/SectionTec";
+import SectionTestmonials from "./components/SectionTestmonials";
 
 export default function Home() {
   return (
     <>
-      <Plans  
-        plans={plans}
-      />
+      <SectionAbout />
+      <SectionInfo />
+      <SectionTec />
+      <SectionTestmonials />
+      <SectionFaq />
     </>
   )
 }

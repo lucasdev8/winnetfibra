@@ -28,7 +28,7 @@ function ModalCobertura({ handleClose, open, height }: Props) {
                         <Select defaultValue="default" fullWidth>
                             <MenuItem value="default">Cidades que a OneClick Atende.</MenuItem>
                             <MenuItem value="mr">Mata Roma - MA(Em breve)</MenuItem>
-                            <MenuItem value="mr">Anapurus - MA(Em breve)</MenuItem>
+                            <MenuItem value="an">Anapurus - MA(Em breve)</MenuItem>
                         </Select>
                     </Box>
                 </Box>
