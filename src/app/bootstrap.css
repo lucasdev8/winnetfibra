@@ -424,12 +424,18 @@ h6 {
   width: 100%;
   background: url("../../public/img/cta-bg.jpg");
   position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   padding: 120px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background: linear-gradient(to right, #0097B2, #7ED759);
+  background: linear-gradient(
+    to right,
+    rgba(0, 151, 178, 0.7),
+    rgba(126, 215, 89, 0.7));
   position: absolute;
   bottom: 0;
   top: 0;
@@ -466,9 +472,16 @@ h6 {
   padding: 10px 30px;
   border-radius: 50px;
   transition: 1s;
-  color: white;
-  background: #0D6EF3;
-  border: 5px linear-gradient(to right, #0097B2, #7ED759);
+  color: black;
+  background: #fbfbfc;
+}
+
+@media (max-width: 990px) {
+  #container-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 #hero .btn-boleto {
@@ -487,7 +500,7 @@ h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: rgb(210, 207, 207);
+  background: rgb(165, 241, 146);
   color: black;
 }
 
@@ -521,6 +534,7 @@ h6 {
 
   #hero .hero-img img {
     max-width: 50%;
+    filter: drop-shadow(0 0 30px rgba(255,255,255,0.25));
   }
 
   #hero h1 {
@@ -539,6 +553,7 @@ h6 {
 @media (max-width: 575px) {
   #hero .hero-img img {
     width: 80%;
+    filter: drop-shadow(0 0 30px rgba(255,255,255,0.25));
   }
 }
 
@@ -1598,7 +1613,7 @@ section {
 }
 
 .contact .php-email-form input {
-  height: 44px;
+  height: 54px;
 }
 
 .contact .php-email-form textarea {
@@ -1756,8 +1771,9 @@ section {
 
 #footer .footer-top .footer-newsletter form input[type=email] {
   border: 0;
-  padding: 4px;
+  padding: 14px;
   width: calc(100% - 110px);
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit] {
@@ -1767,7 +1783,7 @@ section {
   bottom: 0;
   border: 0;
   background: none;
-  font-size: 16px;
+  font-size: 14px;
   padding: 0 20px;
   background: linear-gradient(to right, #0097B2, #7ED759);
   ;

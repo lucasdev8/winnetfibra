@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-import { Box, Button } from "@mui/material";
+import { Box } from "@mui/material";
 import ModalCobertura from "@/app/utils/components/ModalCobertura";
 
 export default function Cobertura() {
@@ -18,7 +18,9 @@ export default function Cobertura() {
                 <h2>Cobertura</h2>
                 <p>Verifique a disponibilidade.</p>
                 <Box sx={{ mt: 10, mb: 10, display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <Button onClick={handleOpen} variant="contained"> Consultar Cobertura</Button>
+                    <div className="footer-newsletter">
+                        <a className="btn btn-primary" onClick={handleOpen}>Consultar Cobertura</a>
+                    </div>
                 </Box>
                 <p></p>
             </div>

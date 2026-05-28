@@ -8,7 +8,7 @@ export default function Suporte() {
                 <h2>Suporte</h2>
                 <p>Nosso time está pronto pra te atender!</p>
                 <Box sx={{ mt: 10, mb: 10, display: "flex", alignItems: "center", justifyContent: "center" }}>
-                    <Button variant="contained"> Falar com suporte</Button>
+                    <a className="btn btn-primary"> Falar com suporte</a>
                 </Box>
                 <p></p>
             </div>

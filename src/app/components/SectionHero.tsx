@@ -1,7 +1,6 @@
 "use client"
 
 import { Icon } from "@iconify/react"
-import { Box, Stack } from "@mui/material"
 import Image from "next/image"
 
 function SectionHero() {
@@ -9,24 +8,17 @@ function SectionHero() {
     return (
         <section id="hero">
 
-            <div className="container">
+            <div className="container banner">
                 <div className="row justify-content-between">
                     <div className="col-lg-7 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center">
                         <div data-aos="zoom-out">
-                            {/* <h2 id="message-header">
-                                OneClick Fibra é<br />
-                                Internet de verdade!
-                            </h2> */}
                             <h1 id="arial">Internet Fibra Óptica em Mata Roma-MA</h1>
-                            <h2 id="arial" style={{ color: "yellow" }}>Planos a partir de <b>R$79,99</b> com instalação rápida, suporte local, planos de até <b>800</b> Mega</h2>
-                            <Box sx={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
-                                <Stack spacing={1} direction="row">
-                                    <a className="btn-get-started scrollto" href="#pricing" id="generete-ssh">
-                                        <Icon icon="solar:planet-bold-duotone" width={20} />Assine já!
-                                    </a>
-                                    <a className="btn-boleto"><Icon icon="solar:document-text-bold-duotone" width={20} /> 2ª Via boleto</a>
-                                </Stack>
-                            </Box>
+                            <h2 color="color: rgba(255,255,255,0.82);" id="arial">Planos a partir de <b>R$79,90</b> com instalação rápida, suporte local, planos de até <b>800</b> Mega</h2>
+                            <div id="container-button">
+                                <a className="btn-get-started scrollto">
+                                    <Icon icon="solar:planet-bold-duotone" width={20} /> ASSINE JÁ
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="300">
